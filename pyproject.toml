@@ -3,3 +3,4 @@ name = "custom-mcp-server"
 version = "0.1.0"
 description = "MCP server for scraping LinkedIn, Facebook, Instagram profiles and Google search."
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
